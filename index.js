@@ -149,6 +149,10 @@ app.post('/calcular', (req, res) => {
     //     });
 });
 
+
+app.get('/teste', (req, res) => {
+    res.send("ok")
+})
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
